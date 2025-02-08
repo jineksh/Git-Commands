@@ -46,3 +46,7 @@ remote connections -> It helps you to link two git repositories for uploading an
 'git cheakout -b <name of branch>-> it will help you to create new branch. and parelley work on same project with diff feture.
 
 "git cheakout <name of branch>" -> it will help you to switch branch.
+
+git push <nameofremote> <name of branch>-> help multiple branch add to github.
+
+for industry project for every feture new branch. 

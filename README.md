@@ -50,3 +50,15 @@ remote connections -> It helps you to link two git repositories for uploading an
 git push <nameofremote> <name of branch>-> help multiple branch add to github.
 
 for industry project for every feture new branch. 
+
+how merge branch file.
+step 1-> all commit done in branch.
+switch to <main branch>.
+git merge <branch name>.->it will add another commmit in main branch.
+git push <remotename> <branchname> .
+
+
+if your teammate work on same project and it will add some file in main branch or another branch and your local system dose-nt aware about it so you use . git pull <remotename> <branchname>->this will help you to updated commit show in your pc. and after this command you push freely in github.
+
+
+if you and your teamate add code in samenumber of line than git don't understand or merge it.so

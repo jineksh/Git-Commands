@@ -41,3 +41,8 @@ remote connections -> It helps you to link two git repositories for uploading an
 -git commit
 -git pull
 -git push
+
+
+'git cheakout -b <name of branch>-> it will help you to create new branch. and parelley work on same project with diff feture.
+
+"git cheakout <name of branch>" -> it will help you to switch branch.

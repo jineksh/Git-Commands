@@ -33,3 +33,11 @@ remote connections -> It helps you to link two git repositories for uploading an
 
 'git remote rename <oldname> <newname>'  -> this command rename the remote connection .
 
+'git pull <name of remote> <branchname>' -> download latest changes from the branch of the mentioned remote in your local repository.
+
+### recommended practice for working to do 
+-make change
+-git add
+-git commit
+-git pull
+-git push

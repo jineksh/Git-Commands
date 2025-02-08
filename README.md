@@ -19,3 +19,8 @@
 whenever your file is commited and you can change in file or write new code on it so writed new code is now in working area and if you don't need of new code then you use it 'git restore'.
 
 once your file in staging area and now you don't need last change so you can use 'git restore --staged <file>' this will help you to move your last change from staging area to working area and now you can remove with 'git restore'.
+
+Quetions-> diff between rm and restore;
+ans-> if you move whole file back to untracked stage than you use "git rm --cached".and if not whole file and some part of file than you use restore.
+
+'git diff commit1 commit2' -> give the diff between what changes in commit1 and commit2. 

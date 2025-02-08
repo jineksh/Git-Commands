@@ -24,3 +24,12 @@ Quetions-> diff between rm and restore;
 ans-> if you move whole file back to untracked stage than you use "git rm --cached".and if not whole file and some part of file than you use restore.
 
 'git diff commit1 commit2' -> give the diff between what changes in commit1 and commit2. 
+
+remote connections -> It helps you to link two git repositories for uploading and downloading changes from each other.
+
+'git remote add <name of remote> <link>' -> it will link your local repository to online github repository.
+
+'git remote rm <name of remote>'-> this command deletes a remote connections.
+
+'git remote rename <oldname> <newname>'  -> this command rename the remote connection .
+

@@ -11,3 +11,11 @@
 'git rm --cached <files>' -> moves file back from staging area to wrokig area.
 
 'commit' -> commit is a particular version of the project .it capatures the sanpshot of the project's staged changes and creates a version out of it.
+
+'git log' -> list down all commits.if you want to exit from git log just press q.
+
+'git restore <file>' -> it removes all files changes from the staging area to commited. This can be useful. if we did some dirty code and how no more want. we can restore last clean version of the file.
+
+whenever your file is commited and you can change in file or write new code on it so writed new code is now in working area and if you don't need of new code then you use it 'git restore'.
+
+once your file in staging area and now you don't need last change so you can use 'git restore --staged <file>' this will help you to move your last change from staging area to working area and now you can remove with 'git restore'.
